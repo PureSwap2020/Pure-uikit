@@ -481,7 +481,7 @@ it("renders AccountModal correctly", () => {
               rel="noreferrer noopener"
               target="_blank"
             >
-              View on BscScan
+              View on HecoScan
               <svg
                 class="sc-dlfnbm dJUqYR"
                 color="primary"

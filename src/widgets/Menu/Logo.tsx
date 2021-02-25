@@ -36,7 +36,8 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   const innerLogo = (
     <>
       <LogoIcon className="mobile-icon" />
-      <LogoWithText className="desktop-icon" isDark={isDark} />
+      <span style={{fontSize: '24px', color: '#fff', marginLeft: '12px'}}> PureSwap</span>
+      {/* <LogoWithText className="desktop-icon" isDark={isDark} /> */}
     </>
   );
 
@@ -50,11 +51,11 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Pancake home page">
+        <StyledLink as="a" href={href} aria-label="Pure home page">
           {innerLogo}
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Pancake home page">
+        <StyledLink to={href} aria-label="Pure home page">
           {innerLogo}
         </StyledLink>
       )}

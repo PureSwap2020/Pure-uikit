@@ -10,8 +10,7 @@ export type ConnectorId =
   | "squarelink"
   | "torus"
   | "walletconnect"
-  | "walletlink"
-  | "bsc";
+  | "walletlink";
 
 export type Login = (connectorId: ConnectorId) => void;
 

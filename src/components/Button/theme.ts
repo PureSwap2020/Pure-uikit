@@ -101,6 +101,6 @@ export const dark: ButtonTheme = {
     ...light.subtle,
   },
   [SUCCESS]: {
-    ...light.success,
+    ...light.textDisabled,
   },
 };
