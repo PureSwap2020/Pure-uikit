@@ -21,9 +21,9 @@ const getDisabledStyles = ({ isLoading, theme }: ThemedProps) => {
     &.button--disabled {
       //${theme.colors.backgroundDisabled};
       background-color: transparent;
-      border-color: ${theme.colors.textDisabled};
+      border-color: ${theme.colors.textSubtle};
       box-shadow: none;
-      color: ${theme.colors.textDisabled};
+      color: ${theme.colors.textSubtle};
       cursor: not-allowed;
     }
   `;
@@ -72,10 +72,6 @@ const StyledButton = styled.button<ButtonProps>`
   &:hover:not(:disabled):not(.button--disabled):not(:active) {
     background-color: ${getButtonVariantProp("backgroundHover")};
     border-color: ${getButtonVariantProp("borderColorHover")};
-  }
-
-  &:focus:not(:active) {
-    box-shadow: 0 0 0 2px ${({ theme }) => theme.colors.secondary};
   }
 
   &:active {
