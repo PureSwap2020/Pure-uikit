@@ -36,7 +36,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   const innerLogo = (
     <>
       <LogoIcon className="mobile-icon" />
-      <span style={{fontSize: '24px', color: '#fff', marginLeft: '12px'}}> PureSwap</span>
+      <span style={{ fontSize: "24px", color: "#fff", marginLeft: "12px" }}> PureSwap</span>
       {/* <LogoWithText className="desktop-icon" isDark={isDark} /> */}
     </>
   );

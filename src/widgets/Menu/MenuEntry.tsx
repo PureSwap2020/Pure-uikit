@@ -46,7 +46,7 @@ const MenuEntry = styled.div<Props>`
   }
 
   &:hover {
-    box-shadow: ${({theme }) => `inset 4px 0px 0px ${theme.colors.primary}`};
+    box-shadow: ${({ theme }) => `inset 4px 0px 0px ${theme.colors.primary}`};
   }
 
   // Safari fix

@@ -55,7 +55,6 @@ const Input = styled.input<InputProps>`
     color: ${({ theme }) => theme.colors.textDisabled};
     cursor: not-allowed;
   }
-
 `;
 
 Input.defaultProps = {
