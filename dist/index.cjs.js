@@ -1020,7 +1020,7 @@ var getHeight = function (_a) {
             return "40px";
     }
 };
-var Input = styled__default['default'].input(templateObject_1$k || (templateObject_1$k = __makeTemplateObject(["\n  background-color: ", ";\n  border: 0;\n  border-radius: 16px;\n  box-shadow: ", ";\n  color: ", ";\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: ", ";\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n\n"], ["\n  background-color: ", ";\n  border: 0;\n  border-radius: 16px;\n  box-shadow: ", ";\n  color: ", ";\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: ", ";\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n\n"])), function (_a) {
+var Input = styled__default['default'].input(templateObject_1$k || (templateObject_1$k = __makeTemplateObject(["\n  background-color: ", ";\n  border: 0;\n  border-radius: 16px;\n  box-shadow: ", ";\n  color: ", ";\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: ", ";\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n"], ["\n  background-color: ", ";\n  border: 0;\n  border-radius: 16px;\n  box-shadow: ", ";\n  color: ", ";\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: ", ";\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.colors.input;
 }, getBoxShadow$1, function (_a) {
@@ -2167,7 +2167,7 @@ var Logo$1 = function (_a) {
     var isAbsoluteUrl = href.startsWith("http");
     var innerLogo = (React__default['default'].createElement(React__default['default'].Fragment, null,
         React__default['default'].createElement(Icon$q, { className: "mobile-icon" }),
-        React__default['default'].createElement("span", { style: { fontSize: '24px', color: '#fff', marginLeft: '12px' } }, " PureSwap")));
+        React__default['default'].createElement("span", { style: { fontSize: "24px", color: "#fff", marginLeft: "12px" } }, " PureSwap")));
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React__default['default'].createElement(Icon$N, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$M, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React__default['default'].createElement(StyledLink$1, { as: "a", href: href, "aria-label": "Pure home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink$1, { to: href, "aria-label": "Pure home page" }, innerLogo))));
@@ -2295,62 +2295,18 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/pancakeswap",
-            },
-            {
-                label: "Bahasa Indonesia",
-                href: "https://t.me/PancakeSwapIndonesia",
+                href: "https://t.me/joinchat/0NL8oX5lXVpjYjBl",
             },
             {
                 label: "中文",
-                href: "https://t.me/PancakeSwap_CN",
-            },
-            {
-                label: "Tiếng Việt",
-                href: "https://t.me/PancakeSwapVN",
-            },
-            {
-                label: "Italiano",
-                href: "https://t.me/pancakeswap_ita",
-            },
-            {
-                label: "русский",
-                href: "https://t.me/pancakeswap_ru",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/pancakeswapturkiye",
-            },
-            {
-                label: "Português",
-                href: "https://t.me/PancakeSwapPortuguese",
-            },
-            {
-                label: "Español",
-                href: "https://t.me/PancakeswapEs",
-            },
-            {
-                label: "日本語",
-                href: "https://t.me/pancakeswapjp",
-            },
-            {
-                label: "Français",
-                href: "https://t.me/pancakeswapfr",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/PancakeSwapAnn",
-            },
-            {
-                label: "Whale Alert",
-                href: "https://t.me/PancakeSwapWhales",
+                href: "https://t.me/joinchat/CcApFDTxaZw1ZGZl",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/pancakeswap",
+        href: "https://twitter.com/Pureswap1",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2460,16 +2416,16 @@ var PanelBody = function (_a) {
 var templateObject_1$C;
 
 var Icons$1 = IconModule;
-Icons$1.MoonIcon; Icons$1.SunIcon; var LanguageIcon = Icons$1.LanguageIcon;
+Icons$1.MoonIcon; Icons$1.SunIcon; Icons$1.LanguageIcon;
 var Container$4 = styled__default['default'].div(templateObject_1$D || (templateObject_1$D = __makeTemplateObject(["\n  flex: none;\n  padding: 8px 4px;\n  background-color: ", ";\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n"], ["\n  flex: none;\n  padding: 8px 4px;\n  background-color: ", ";\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n"])), function (_a) {
     var theme = _a.theme;
     return theme.nav.background;
 });
 var PriceLink = styled__default['default'].a(templateObject_2$c || (templateObject_2$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
-var SettingsEntry = styled__default['default'].div(templateObject_3$7 || (templateObject_3$7 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
+styled__default['default'].div(templateObject_3$7 || (templateObject_3$7 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
 var SocialEntry = styled__default['default'].div(templateObject_4$3 || (templateObject_4$3 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"])), MENU_ENTRY_HEIGHT);
 var PanelFooter = function (_a) {
-    var isPushed = _a.isPushed, pushNav = _a.pushNav; _a.toggleTheme; _a.isDark; var cakePriceUsd = _a.cakePriceUsd, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang;
+    var isPushed = _a.isPushed, pushNav = _a.pushNav; _a.toggleTheme; _a.isDark; var cakePriceUsd = _a.cakePriceUsd; _a.currentLang; _a.langs; _a.setLang;
     if (!isPushed) {
         return (React__default['default'].createElement(Container$4, null,
             React__default['default'].createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
@@ -2477,8 +2433,7 @@ var PanelFooter = function (_a) {
     }
     return (React__default['default'].createElement(Container$4, null,
         React__default['default'].createElement(SocialEntry, null,
-            cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://pancakeswap.info/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", target: "_blank" },
-                React__default['default'].createElement(Icon$w, { width: "24px", mr: "8px" }),
+            cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "#", target: "_blank" },
                 React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 })),
             React__default['default'].createElement(Flex, null, socials.map(function (social, index) {
                 var Icon = Icons$1[social.icon];
@@ -2489,12 +2444,7 @@ var PanelFooter = function (_a) {
                 }
                 return (React__default['default'].createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
                     React__default['default'].createElement(Icon, __assign({}, iconProps))));
-            }))),
-        React__default['default'].createElement(SettingsEntry, null,
-            React__default['default'].createElement(Dropdown, { position: "top-right", target: React__default['default'].createElement(Button, { variant: "text", startIcon: React__default['default'].createElement(LanguageIcon, { color: "textSubtle", width: "24px" }) },
-                    React__default['default'].createElement(Text, { color: "textSubtle" }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default['default'].createElement(MenuButton, { key: lang.code, fullWidth: true, onClick: function () { return setLang(lang); }, 
-                // Safari fix
-                style: { minHeight: "32px", height: "auto" } }, lang.language)); })))));
+            })))));
 };
 var templateObject_1$D, templateObject_2$c, templateObject_3$7, templateObject_4$3;
 
@@ -2705,7 +2655,7 @@ var UserBlock = function (_a) {
 };
 
 var Wrapper$1 = styled__default['default'].div(templateObject_1$H || (templateObject_1$H = __makeTemplateObject(["\n  position: relative;\n  width: 100%;\n"], ["\n  position: relative;\n  width: 100%;\n"])));
-var StyledNav = styled__default['default'].nav(templateObject_2$e || (templateObject_2$e = __makeTemplateObject(["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  width: 100%;\n  height: ", "px;\n  background-color: ", ";\n  border-bottom: solid 2px #043A4D;\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  width: 100%;\n  height: ", "px;\n  background-color: ", ";\n  border-bottom: solid 2px #043A4D;\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"])), function (_a) {
+var StyledNav = styled__default['default'].nav(templateObject_2$e || (templateObject_2$e = __makeTemplateObject(["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  width: 100%;\n  height: ", "px;\n  background-color: ", ";\n  border-bottom: solid 2px #043a4d;\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  width: 100%;\n  height: ", "px;\n  background-color: ", ";\n  border-bottom: solid 2px #043a4d;\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"])), function (_a) {
     var showMenu = _a.showMenu;
     return (showMenu ? 0 : "-" + MENU_HEIGHT + "px");
 }, MENU_HEIGHT, function (_a) {

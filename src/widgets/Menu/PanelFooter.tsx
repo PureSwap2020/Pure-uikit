@@ -78,8 +78,8 @@ const PanelFooter: React.FC<Props> = ({
     <Container>
       <SocialEntry>
         {cakePriceUsd ? (
-          <PriceLink href="https://pancakeswap.info/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82" target="_blank">
-            <PancakeRoundIcon width="24px" mr="8px" />
+          <PriceLink href="#" target="_blank">
+            {/* <PancakeRoundIcon width="24px" mr="8px" /> */}
             <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
           </PriceLink>
         ) : (
@@ -109,7 +109,7 @@ const PanelFooter: React.FC<Props> = ({
           })}
         </Flex>
       </SocialEntry>
-      <SettingsEntry>
+      {/* <SettingsEntry> */}
         {/* <Button variant="text" onClick={() => toggleTheme(!isDark)}>
           <Flex alignItems="center">
             <SunIcon color={isDark ? "textDisabled" : "text"} width="24px" />
@@ -119,7 +119,7 @@ const PanelFooter: React.FC<Props> = ({
             <MoonIcon color={isDark ? "text" : "textDisabled"} width="24px" />
           </Flex>
         </Button> */}
-        <Dropdown
+        {/* <Dropdown
           position="top-right"
           target={
             <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
@@ -138,8 +138,8 @@ const PanelFooter: React.FC<Props> = ({
               {lang.language}
             </MenuButton>
           ))}
-        </Dropdown>
-      </SettingsEntry>
+        </Dropdown> */}
+      {/* </SettingsEntry> */}
     </Container>
   );
 };

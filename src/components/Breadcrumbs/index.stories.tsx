@@ -23,7 +23,7 @@ export const Default: React.FC = () => {
       </BreadCrumbs>
       <BreadCrumbs>
         <Text>PureSwap</Text>
-        <Text>The #1 AMM and yield farm on HECO.</Text>
+        <Text>The #1 AMM and yield farm on BSC.</Text>
       </BreadCrumbs>
     </Text>
   );
