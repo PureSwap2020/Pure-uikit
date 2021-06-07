@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33f55cb3-04ac-41c0-8ede-c6724c57f6a3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Svg/Icons/NewIFO.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/Menu/icons/NewIFO.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ResetCSS.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Alert/Alert.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Alert/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Alert/theme.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Alert/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Box/Box.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Box/Flex.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Box/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Box/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Breadcrumbs/Breadcrumbs.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Breadcrumbs/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Breadcrumbs/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Button/Button.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Button/IconButton.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Button/StyledButton.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Button/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Button/theme.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Button/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/ButtonMenu/ButtonMenu.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/ButtonMenu/ButtonMenuItem.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/ButtonMenu/StyledButtonMenu.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/ButtonMenu/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/ButtonMenu/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Card/Card.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Card/CardBody.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Card/CardFooter.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Card/CardHeader.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Card/CardRibbon.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Card/StyledCard.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Card/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Card/theme.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Card/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Checkbox/Checkbox.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Checkbox/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Checkbox/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Dropdown/Dropdown.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Dropdown/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Dropdown/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Heading/Heading.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Heading/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Heading/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Image/BackgroundImage.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Image/Image.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Image/Wrapper.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Image/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Image/options.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Image/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Input/Input.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Input/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Input/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Layouts/BaseLayout.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Layouts/CardsLayout.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Layouts/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Link/Link.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Link/LinkExternal.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Link/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Link/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Overlay/Overlay.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Overlay/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Overlay/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Progress/Progress.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Progress/ProgressBunnyWrapper.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Progress/StyledProgress.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Progress/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Progress/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Radio/Radio.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Radio/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Radio/theme.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Radio/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Skeleton/Skeleton.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Skeleton/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Skeleton/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Spinner/PanIcon.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Spinner/PancakeIcon.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Spinner/Spinner.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Spinner/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Spinner/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Add.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/ArrowBack.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/ArrowDown.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/ArrowDropDown.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/ArrowDropUp.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/ArrowForward.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/AutoRenew.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Binance.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Block.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/BunnyPlaceholder.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Calculate.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/CardView.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Checkmark.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/CheckmarkCircle.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/ChevronDown.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/ChevronLeft.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/ChevronRight.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/ChevronUp.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Close.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Cog.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Community.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Copy.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Error.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Help.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Info.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/ListView.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Logo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/LogoRound.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Minus.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/NoProfileAvatar.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/OpenNew.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/PancakeRound.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Pancakes.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Prize.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/ProgressBunny.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Remove.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Search.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/SwapVert.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/SyncAlt.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Ticket.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/TicketRound.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Verified.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Warning.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Icons/Won.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/Svg.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Svg/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Table/example/const.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Table/example/header.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Table/hooks.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Table/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Table/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Table/utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Tag/StyledTag.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Tag/Tag.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Tag/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Tag/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Text/Text.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Text/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Text/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Toggle/StyledToggle.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Toggle/Toggle.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Toggle/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Toggle/theme.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Toggle/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/hooks/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/hooks/useMatchBreakpoints.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/hooks/useParticleBurst.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/setupTests.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/testHelpers.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/theme/base.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/theme/colors.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/theme/dark.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/theme/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/theme/light.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/theme/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/util/getColor.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/util/getExternalLinkProps.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/util/getThemeValue.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/Accordion.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/Avatar.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/Logo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/Menu.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/MenuButton.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/MenuEntry.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/MenuLink.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/Panel.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/PanelBody.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/PanelFooter.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/UserBlock.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/config.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Farm.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Groups.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Hamburger.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/HamburgerClose.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Home.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Ifo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Info.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Language.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Logo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Moon.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/More.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Nft.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Pool.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Sun.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Telegram.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Ticket.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Trade.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/Twitter.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/icons/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/theme.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Menu/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Modal/Modal.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Modal/ModalContext.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Modal/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Modal/theme.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Modal/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Modal/useModal.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Toast/Toast.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Toast/ToastAction.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Toast/ToastContainer.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Toast/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/Toast/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/WalletModal/AccountModal.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/WalletModal/ConnectModal.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/WalletModal/CopyToClipboard.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/WalletModal/WalletCard.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/WalletModal/config.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/WalletModal/icons/BinanceChain.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/WalletModal/icons/MathWallet.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/WalletModal/icons/Metamask.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/WalletModal/icons/TokenPocket.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/WalletModal/icons/TrustWallet.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/WalletModal/icons/WalletConnect.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/WalletModal/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/WalletModal/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widgets/WalletModal/useWalletModal.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Svg/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Svg/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Menu/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Menu/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Menu/icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Menu/icons/index.ts" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="config.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/widgets/Menu/config.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Svg/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pool.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Pool.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Svg.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Svg/Svg.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewIFO.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/NewIFO.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewIFO.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Svg/Icons/NewIFO.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Info.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Info.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MemuEntry</find>
+      <find>SvgProps</find>
+      <find>InfoIcon</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/Svg/Icons/IFO.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Svg/index.tsx" />
+        <option value="$PROJECT_DIR$/src/widgets/Menu/config.ts" />
+        <option value="$PROJECT_DIR$/src/widgets/Menu/icons/index.ts" />
+        <option value="$PROJECT_DIR$/src/widgets/Menu/icons/NewIFO.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Svg/Icons/NewIFO.tsx" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="115" />
+    <option name="y" value="25" />
+    <option name="width" value="1291" />
+    <option name="height" value="794" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Pure-uikit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pure-uikit" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/widgets/Menu/icons" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33f55cb3-04ac-41c0-8ede-c6724c57f6a3" name="Default" comment="" />
+      <created>1623035400479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623035400479</updated>
+      <workItem from="1623035402443" duration="9082000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9082000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="201" y="25" width="1291" height="794" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="npm" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3299566" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18110237" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/index.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/Svg/Icons/Logo.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styled.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Svg/Icons/Info.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Svg/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/components/Svg/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/Menu.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="106" column="32" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/MenuLink.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Info.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Svg/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Svg/Svg.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Pool.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/NewIFO.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Svg/Icons/NewIFO.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -5,6 +5,7 @@ export { default as HamburgerCloseIcon } from "./HamburgerClose";
 export { default as HomeIcon } from "./Home";
 export { default as IfoIcon } from "./Ifo";
 export { default as InfoIcon } from "./Info";
+export { default as NewIFOIcon } from "./NewIFO";
 export { default as LanguageIcon } from "./Language";
 export { default as LogoIcon } from "./Logo";
 export { default as MoonIcon } from "./Moon";

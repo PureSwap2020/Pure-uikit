@@ -77,7 +77,7 @@ export const links = [
   },
   {
     label: "IFO",
-    icon: "IfoIcon",
+    icon: "NewIFOIcon",
     items: [
       {
         label: "Next",
