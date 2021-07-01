@@ -14,6 +14,8 @@ export { default as NftIcon } from "./Nft";
 export { default as PoolIcon } from "./Pool";
 export { default as SunIcon } from "./Sun";
 export { default as TelegramIcon } from "./Telegram";
+export { default as TelegramCNIcon } from "./TelegramCN";
+export { default as TelegramENIcon } from "./TelegramEN";
 export { default as TicketIcon } from "./Ticket";
 export { default as TradeIcon } from "./Trade";
 export { default as TwitterIcon } from "./Twitter";
