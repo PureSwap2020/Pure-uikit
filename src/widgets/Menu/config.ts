@@ -131,12 +131,12 @@ export const socials = [
   {
     label: "TelegramEN",
     icon: "TelegramENIcon",
-    href: "https://t.me/joinchat/0NL8oX5lXVpjYjBl",
+    href: "https://t.me/pureswap_en",
   },
   {
     label: "TelegramCN",
     icon: "TelegramCNIcon",
-    href: "https://t.me/joinchat/CcApFDTxaZw1ZGZl",
+    href: "https://t.me/pureswap_cn",
   },
   {
     label: "Twitter",
